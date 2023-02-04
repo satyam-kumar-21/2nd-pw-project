@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e8e9dcc4;
+    font-family: 'Nunito', sans-serif;
+}
+.nav{
+    width: 40%;
+    height: 10vh;
+    margin: 3vh 10%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.logo{
+    color: #276bea;
+    font-weight: 900;
+}
+.nav a{
+    text-decoration: none;
+    color: #000000;
+}
+.body-part{
+    height: 70vh;
+    width: 80%;
+    margin: 5vh 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    height: 70vh;
+    width: 40%;
+}
+.left h1{
+    margin-top: 22vh;
+    font-weight: 900;
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #276bea;
+}
+.right{
+    width: 60%;
+    height: 70vh;
+}
+.top{
+    height: 30vh;
+    width: 90%;
+    margin: 2.5vh 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.top-first{
+    width: 20%;
+    height: 20vh;
+    border-radius: 10px;
+    margin: 10vh 0 0vh 25%;
+}
+.top-second{
+    width: 25%;
+    height: 25vh;
+    border-radius: 10px;
+    margin: 5vh 28% 2% 0;
+   
+}
+.buttom{
+    height: 30vh;
+    width: 90%;
+    margin: 0vh 5%;
+}
+.butt-img{
+    height: 20vh;
+    width: 42%;
+    margin: 0vh 28%;
+    border-radius: 10px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* media  */
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: #f1f5f1;
+      font-family: 'Nunito', sans-serif;
+    }
+    .nav{
+        height: 10vh;
+        width: 90%;
+        margin: 3vh 5% 1vh 5%;
+    }
+    .nav a{
+        font-size: smaller;
+    }
+    .body-part{
+        height: 50vh;
+        width: 98%;
+        display: grid;
+        margin: 0 1%;
+    }
+    .left{
+        height: 20vh;
+        width: 90%;
+        margin: 1vh 5% 10vh 5%;
+        text-align: center;
+    }
+    .left h1{
+        margin: 0vh 0;
+    }
+    .right{
+        height: 20vh;
+        width: 98%;
+        margin: 1vh 1% 10vh 1%;
+        text-align: center;
+    }
+    .top{
+        height: 25vh;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-first{
+        height: 20vh;
+        width: 49%;
+        margin: 4vh 1% 1vh 0;
+    }
+    .top-second{
+        height: 24vh;
+        width: 50%;
+        margin: 0 0 1vh 0;
+    }
+    .buttom{
+        height: 25vh;
+        width: 90%;
+    }
+    .butt-img{
+        height: 24vh;
+        width: 100%;
+        margin: 0 0 1vh 0;
+    }
+  }
